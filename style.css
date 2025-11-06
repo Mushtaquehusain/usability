@@ -38,3 +38,54 @@
     text-decoration: none;
     display: inline-block;
  }
+ .container{
+    max-width: 1180px;
+    margin-inline: auto;
+    /* padding-inline: ; */
+ }
+.flex{
+   display: flex;
+   align-items: center;
+}
+
+ 
+ /* top banner */
+ .top-banner{
+    background-image: url("./assets/asset\ 32.png");
+    background-size: 300px;
+    background-color: #4fb3d4;
+ }
+ .banner-text{
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+ }
+ /* navbar */
+ ul{
+   list-style: none;
+ }
+.logo img{
+   width: 200px;
+
+
+ }
+.main-nav{
+   margin-top: 20px;
+   justify-content: space-between;
+}
+.hover-links{
+   flex-basis: 730px;
+
+}
+.hover-links ul{
+   justify-content: end;
+   gap:40px;
+}
+.hover-links{
+   color: var(--primary-text-color);
+   text-transform: capitalize;
+   font-weight: 400;
+}
+.hover-links:hover {
+   color: var(--accent-color);
+}
